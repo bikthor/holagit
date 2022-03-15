@@ -6,19 +6,26 @@
 ```bash
 git init
 ```
-* Añadimos el origin:
+* Añadimos el repositorio remoto:
 ```bash
 git remote add origin git@github.com:bikthor/holagit
 ```
-* Hacemos un push a master:
+* Hacemos un push a la rama master de nuestro repositorio remoto (upstream):
 ```bash
-git push -u  origin master
+git push -u origin master
 ```
-* Añadimos al repositorio local los datos del proyecto:
+
+## En caso de hacer cambios:
+
+* Añadimos al repositorio local los datos del proyecto (cambios):
 ```bash
 git add .
 ```
-* Hacemos un commit:
+* Hacemos un commit (confirmamos los cambios):
 ```bash
 git commit -m "Estructura inicial del proyecto"
+```
+* Hacemos un push de los cambios (los subimos al repositorio remoto):
+```bash
+git push
 ```
