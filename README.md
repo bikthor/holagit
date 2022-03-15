@@ -23,7 +23,7 @@ git add .
 ```
 * Hacemos un commit (confirmamos los cambios):
 ```bash
-git commit -m "Estructura inicial del proyecto"
+git commit -m "Cambios en el README"
 ```
 * Hacemos un push de los cambios (los subimos al repositorio remoto):
 ```bash
