@@ -17,15 +17,15 @@ git push -u origin master
 
 ## En caso de hacer cambios:
 
-* Añadimos al repositorio local los datos del proyecto (cambios):
+* Añadimos al stage los cambios:
 ```bash
 git add .
 ```
-* Hacemos un commit (confirmamos los cambios):
+* Confirmamos los cambios y los guardamos en nuestra DB local:
 ```bash
 git commit -m "Cambios en el README"
 ```
-* Hacemos un push de los cambios (los subimos al repositorio remoto):
+* Subimos los cambios al repositorio remoto:
 ```bash
 git push
 ```
